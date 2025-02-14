@@ -1924,6 +1924,7 @@
     } else {
       window.setserver(byId("gamemode").value);
     }
+
     drawGame();
     Logger.info(`Init done in ${Date.now() - LOAD_START}ms`);
   }
